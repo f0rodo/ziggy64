@@ -21,4 +21,5 @@ const env = {
 }
 instance = new WebAssembly.Instance(m, {env})
 console.log(instance.exports.add(1,2))
+console.log(instance.exports.sub(1,2))
 
